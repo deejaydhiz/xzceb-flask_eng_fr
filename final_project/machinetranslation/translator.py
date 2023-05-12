@@ -27,7 +27,7 @@ def englishToFrench(englishText):
     return frenchText
 
 ### function to translate French to English
- def frenchToEnglish(frenchText):
+def frenchToEnglish(frenchText):
     #write the code here
     englishText = language_translator.translate(
     frenchText,
