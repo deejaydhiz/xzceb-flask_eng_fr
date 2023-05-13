@@ -14,8 +14,5 @@ translation = language_translator.translate(
     text=['ten', 'how', 'are', 'you', 'today?'],
     model_id='en-es').get_result()
 print(json.dumps(translation, indent=2, ensure_ascii=False))
-x = []
-for i in translation:
-    for j in 
-    x = translation["translations"][0:]
-print (x.values())
+x = translation("translations")
+print (x)
