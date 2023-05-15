@@ -9,7 +9,7 @@ class TestTranslator(unittest.TestCase):
 
     def test_french_to_english(self):
         self.assertEqual(french_to_english('Bonjour'),'Hello')
-        self.assertNotEqual(french_to_english('Hello'),'bonjour')
+        self.assertNotEqual(french_to_english('bonjour'),'bonjour')
         self.assertIsNot('',"no input")
 
 if __name__ == "__main__":
